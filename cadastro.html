@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Cadastro</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+</head>
+<body>
+<div class="cabecalho">  <!-- Cabecalho do Cadastro-->
+    <h1><b>Cadastro de Cliente</b></h1>
+    <p>Preencha as informações abaixo: </p>
+</div>
+
+<form>  <!-- Inicio do formulario-->
+        <fieldset>
+    <div class="campo">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+    </div>
+
+    <div class="campo"> 
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome"> 
+    </div>
+        </fieldset>  <!-- Tag para agrupar-->
+
+    <div class="campo">
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" id="cpf" required>
+    </div>
+
+    <div class="campo">
+        <label for="tel">Telefone</label>
+        <input type="tel" name="tel" id="tel">
+    </div>
+
+    <div class="campo">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+
+<fieldset>  
+    <div class="campo">
+        <label></br>Endereço</label></div></br>
+        <label for="rua">Rua</label>
+        <input type="text" name="rua" id="rua">
+    </div>
+  
+    <div class="campo">
+        <label for="numero">Numero</label>
+        <input type="number" name="numero" id="numero">
+    </div>
+
+    <div class="campo">
+        <label for="bairro">Bairro</label>
+        <input type="text" name="bairro" id="bairro">
+    </div>
+
+    <div class="campo">
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade" id="cidade">
+    </div>
+
+    
+</fieldset>   
+    <button class="botao" type="submit" onsubmit="">Concluído</button>
+</form>
+
+
+</body>
+
+
+</html>
